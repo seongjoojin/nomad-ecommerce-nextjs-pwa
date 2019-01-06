@@ -13,3 +13,15 @@ CMS (Content Management System) : 컨텐츠 관리 시스템
 ## 1.2 Difference between NextJS and CRA
 
 next는 프론트엔드를 위한 서버가 존재함.
+
+## 1.3 What is SSR and why do we need it 
+
+Server Side Rendering(SSR)은 앱을 렌더링하는 방법.
+
+다른 하나는 Client Side Rendering(CSR).
+
+SSR은 로딩에 대한 룰이 없음. 서버가 HTML을 미리 렌더링 해서 보내줌.
+
+CSR은 로딩에 대한 룰이 있음. javascript에서 모든 내용을 생성함.
+
+먼저 서버가 시작되고 나서 클라이언트가 상호 작용을 받음.
