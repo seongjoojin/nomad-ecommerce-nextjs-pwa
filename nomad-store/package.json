@@ -1,0 +1,17 @@
+{
+  "name": "nomad-store",
+  "version": "1.0.0",
+  "description": "eCommerce PWA Built with NextJS and GraphCMS",
+  "author": "evan<evanjin8@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
