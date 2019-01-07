@@ -1,6 +1,7 @@
 import Head from "next/head";
+import withLayout from "../lib/withLayout";
 
-export default () => (
+const About = () => (
 		<div>
 			<Head>
 				<title>About | nomad store</title>
@@ -8,3 +9,5 @@ export default () => (
 			<h1>About Page</h1>
 		</div>
 );
+
+export default withLayout(About)
