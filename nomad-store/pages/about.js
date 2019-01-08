@@ -7,6 +7,7 @@ const About = () => (
 				<title>About | nomad store</title>
 			</Head>
 			<h1>About Page</h1>
+			<p>lorem ipsum</p>
 		</div>
 );
 
