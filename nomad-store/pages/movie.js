@@ -1,8 +1,7 @@
 import Head from "next/head";
 import { withRouter } from "next/router";
-import withLayout from "../lib/withLayout";
 
-const Post = props => (
+const Movie = props => (
 		<div>
 			<Head>
 				<title>{props.router.query.title} | Nomad Store</title>
@@ -13,4 +12,4 @@ const Post = props => (
 		</div>
 );
 
-export default withLayout(withRouter(Post));
+ export default withRouter(Movie);

@@ -1,11 +1,7 @@
 import Link from "next/link";
 
-const headerStyles = {
-	backgroundColor:'red'
-};
-
 export default () => (
-		<header style={headerStyles}>
+		<header>
 			<nav>
 				<ul>
 					<li>
