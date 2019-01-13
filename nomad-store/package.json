@@ -5,6 +5,7 @@
   "author": "evan<evanjin8@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.4",
     "next": "^7.0.2",
     "react": "^16.7.0",

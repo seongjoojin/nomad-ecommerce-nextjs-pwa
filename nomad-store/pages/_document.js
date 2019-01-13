@@ -9,7 +9,6 @@ export default class MyDocument extends Document{
 		return (
 				<html>
 					<Head>
-						<title>Nomad Store</title>
 						<meta name="author" content={"Evan Jin"} />
 						<link href="/static/style.css" rel={"stylesheet"} />
 					</Head>
