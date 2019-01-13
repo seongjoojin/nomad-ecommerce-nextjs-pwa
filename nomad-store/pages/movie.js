@@ -1,22 +1,24 @@
 import Head from "next/head";
 import { withRouter } from "next/router";
+import Axios from "axios";
 
 const Movie = props => (
 		<div>
 			<Head>
-				<title>{props.router.query.title} | Nomad Store</title>
+				<title>{props.movie.title} | Nomad Store</title>
 			</Head>
-			{JSON.stringify(props)}
-			<h1>{props.title}</h1>
-			<p>lalala</p>
+			<h1>{props.movie.title}</h1>
+			<p>{props.movie.description_intro}</p>
 		</div>
 );
 
-Movie.getInitialProps = async()=>{
+Movie.getInitialProps = async(context)=>{
 	// call the api
 	// parse the result
 	// return result
-	return {movie: "lololo"}
+	const { query: { id } } = context;
+	const {data: {data: {movie}}} = await Axios.get(`https://yts.am/api/v2/movie_details.json?movie_id=${id}`)
+	return {movie};
 };
 
  export default withRouter(Movie);
