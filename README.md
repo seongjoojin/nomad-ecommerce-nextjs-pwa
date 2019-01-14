@@ -33,3 +33,7 @@ CSR은 로딩에 대한 룰이 있음. javascript에서 모든 내용을 생성�
 웹사이트가 있는데 유저가 아무런 컨텐츠를 만들지않고 컨텐츠를 받기만 하는 blog등.
 
 양방향으로 커뮤니케이션이 있고 사용자가 인증해야하고 그럴 때는 GraphCMS는 좋은 선택이 아님
+
+## 2.2 Creating the Schemas on GraphCMS
+
+https://docs.graphcms.com/developers/schema
