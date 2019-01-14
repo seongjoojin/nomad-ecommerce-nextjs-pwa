@@ -37,3 +37,7 @@ CSR은 로딩에 대한 룰이 있음. javascript에서 모든 내용을 생성�
 ## 2.2 Creating the Schemas on GraphCMS
 
 https://docs.graphcms.com/developers/schema
+
+## 2.3 Finishing Schemas and Testing
+
+https://docs.graphcms.com/developers/api
