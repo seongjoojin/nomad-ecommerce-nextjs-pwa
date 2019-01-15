@@ -41,3 +41,6 @@ https://docs.graphcms.com/developers/schema
 ## 2.3 Finishing Schemas and Testing
 
 https://docs.graphcms.com/developers/api
+
+## 3.1 Cleaning Up and Planning 
+
