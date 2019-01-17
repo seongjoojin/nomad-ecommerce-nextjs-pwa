@@ -11,6 +11,13 @@ export default class MyDocument extends Document{
 					<Head>
 						<meta name="author" content={"Evan Jin"} />
 						<link href="//cdnjs.cloudflare.com/ajax/libs/antd/3.8.1/antd.min.css" rel="stylesheet" />
+						<style>
+							{`
+								body {
+									background-color:#eff2f5!important
+								}
+							`}
+						</style>
 					</Head>
 					<body>
 						<Main />
