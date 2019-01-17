@@ -5,6 +5,7 @@
   "author": "evan<evanjin8@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "antd": "3.8.1",
     "apollo-boost": "^0.1.23",
     "express": "^4.16.4",
     "graphql": "^14.1.0",
