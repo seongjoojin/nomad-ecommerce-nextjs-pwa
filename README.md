@@ -42,5 +42,9 @@ https://docs.graphcms.com/developers/schema
 
 https://docs.graphcms.com/developers/api
 
-## 3.1 Cleaning Up and Planning 
+## 3.6 Products on Sale Query
+
+스키마를 정한 후 바꾸지 않는 것이 좋음.
+
+너무 많이 바꾸면 데이터를 잃어버릴 수 있음.
 
