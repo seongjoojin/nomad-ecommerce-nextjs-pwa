@@ -1,1 +1,1 @@
-export const API_URL = 'graphCMS api address';
+export const API_URL = 'https://api-apeast.graphcms.com/v1/cjqwb8wgx5nyg01hq492t73ac/master';
