@@ -1,3 +1,1 @@
-exports default() => (
-		<div>product</div>
-);
+export default () => <div>product!</div>;
