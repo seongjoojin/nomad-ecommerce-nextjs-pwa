@@ -57,6 +57,29 @@ export default ({ data }) => (
 						))}
 					</div>
 				</div>
+				<div style={{ marginTop:"50px" }}>
+					{data&&data.sale&&data.sale.length !== 0 && <h2>All Products</h2>}
+					<div
+						style={{
+							display: "grid",
+							gridGap: "10px",
+							gridTemplateColumns: "repeat(auto-fill,minmax(250px,1fr))",
+							width: "100%"
+						}}
+					>
+						{data && data.allProducts && data.allProducts.map(product=>(
+							<ProductCard
+								key={product.id}
+								id={product.id}
+								name={product.name}
+								subtitle={product.detail}
+								price={product.price}
+								photoUrl={product.photo.url}
+							/>
+						))
+						}
+					</div>
+				</div>
 			</Content>
 		</>
 );
