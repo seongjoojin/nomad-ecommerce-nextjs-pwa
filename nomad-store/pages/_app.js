@@ -3,6 +3,7 @@ import App, { Container } from "next/app";
 import React from "react";
 import withApollo from "../lib/withApollo";
 import {ApolloProvider} from "react-apollo";
+import withNProgress from "next-nprogress";
 const { Footer } = Layout;
 
 class MyApp extends App{
@@ -28,4 +29,4 @@ class MyApp extends App{
 	}
 };
 
-export default withApollo(MyApp)
+export default withNProgress()(withApollo(MyApp))
