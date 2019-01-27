@@ -7,10 +7,13 @@ export default class MyDocument extends Document{
 	}
 	render() {
 		return (
-				<html>
+				<html lang="en">
 					<Head>
 						<meta name="author" content={"Evan Jin"} />
-						<link href="//cdnjs.cloudflare.com/ajax/libs/antd/3.8.1/antd.min.css" rel="stylesheet" />
+						<link href="https://cdnjs.cloudflare.com/ajax/libs/antd/3.8.1/antd.min.css" rel="stylesheet" />
+						<meta name="viewport" content="width=device-width, initial-scale=1" />
+						<meta name="description" content="Nomad Store, buy all your nomad swag" />
+						<meta name="theme-color" content="black" />
 						<style>
 							{`
 								body {
