@@ -48,3 +48,18 @@ https://docs.graphcms.com/developers/api
 
 너무 많이 바꾸면 데이터를 잃어버릴 수 있음.
 
+## 4.1 Introduction to PWA
+
+https://developers.google.com/web/progressive-web-apps/
+
+
+특징
+
+1. 오프라인을 지원함.
+
+2. 더 빠르고, 알림 제공 및 홈 스크린에 관여
+
+
+많은 기업이 이용함 (인스타그램, 우버, 틴더 등)
+
+위치기능 지원, 알림, 홈스크린에서 실행 가능 (웹사이트에 갈 필요가 없음)
