@@ -73,7 +73,7 @@ manifest는 브라우저에게 application에 대한 정보 알려줌.
 https://developers.google.com/web/fundamentals/web-app-manifest/
 
 name은 유저가 application을 열었을때 먼저 보는 것.
-
+``
 short_name은 사용자 홈 화면의 텍스트로 사용
 
 192px의 아이콘은 홈스크린의 아이콘으로 나오고 512px 아이콘은 application을 열었을때 볼 수 있음.
