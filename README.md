@@ -63,3 +63,19 @@ https://developers.google.com/web/progressive-web-apps/
 많은 기업이 이용함 (인스타그램, 우버, 틴더 등)
 
 위치기능 지원, 알림, 홈스크린에서 실행 가능 (웹사이트에 갈 필요가 없음)
+
+## 4.3 Auditing with Light House part Two
+
+pwa : manifest를 얻을 수 있는 브라우저를 의미함.
+
+manifest는 브라우저에게 application에 대한 정보 알려줌.
+
+https://developers.google.com/web/fundamentals/web-app-manifest/
+
+name은 유저가 application을 열었을때 먼저 보는 것.
+
+short_name은 사용자 홈 화면의 텍스트로 사용
+
+192px의 아이콘은 홈스크린의 아이콘으로 나오고 512px 아이콘은 application을 열었을때 볼 수 있음.
+
+둘 다 추가해야 홈스크린에 추가하겠냐는 메세지 나옴.

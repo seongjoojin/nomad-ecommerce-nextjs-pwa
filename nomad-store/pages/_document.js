@@ -14,6 +14,7 @@ export default class MyDocument extends Document{
 						<meta name="viewport" content="width=device-width, initial-scale=1" />
 						<meta name="description" content="Nomad Store, buy all your nomad swag" />
 						<meta name="theme-color" content="black" />
+						<link rel="manifest" href="/static/manifest.json" />
 						<style>
 							{`
 								body {
