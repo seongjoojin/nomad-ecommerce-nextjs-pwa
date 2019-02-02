@@ -19,6 +19,7 @@
   "scripts": {
     "dev": "node server",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js",
+    "export": "next build && next export"
   }
 }
