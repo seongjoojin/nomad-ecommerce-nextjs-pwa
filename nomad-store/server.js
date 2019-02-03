@@ -10,7 +10,7 @@ app.prepare().then(()=>{
 	const server = express();
 
 	server.get("/sw.js", (req, res) => {
-		app.serveStatic(req, res, resolve("/static/service-worker.js"));
+		app.serveStatic(req, res, resolve("./static/service-worker.js"));
 	});
 
 	server.get("/product/:id",(req, res)=>{

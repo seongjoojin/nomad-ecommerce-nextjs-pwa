@@ -20,7 +20,8 @@ self.addEventListener("fetch", event => {
 self.addEventListener("push", event => {
 	const title = "Nomad Store";
 	const options = {
-		body: event.data.text()
+		body: event.data.text(),
+		icon: "./static/shopping-cart128.png"
 	};
 	event.waitUntil(self.registration.showNotification(title, options));
 });

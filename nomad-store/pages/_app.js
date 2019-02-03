@@ -20,7 +20,7 @@ class MyApp extends App{
 		if ("serviceWorker" in navigator && "PushManager" in window) {
 			navigator.serviceWorker.register("/sw.js")
 					.then(swReg=> {
-						console.log("SW Registered ", swReg);
+						console.log("SW Registered: ", swReg);
 						swReg.pushManager.getSubscription()
 								.then(subscription => {
 									if (subscription === null) {
@@ -34,12 +34,12 @@ class MyApp extends App{
 															)
 														})
 														.then(pushSubscriptionObject => {
-															console.log(pushSubscriptionObject);
+															console.log(JSON.stringify(pushSubscriptionObject));
 														});
 											}
 										})
 									} else {
-										console.log(subscription);
+										console.log(JSON.stringify(subscription));
 									}
 								})
 					})
