@@ -19,18 +19,27 @@ class MyApp extends App{
 	componentDidMount() {
 		if ("serviceWorker" in navigator && "PushManager" in window) {
 			navigator.serviceWorker.register("/sw.js")
-					.then(swReg=>{
-						console.log("SW Registered ", swReg)
-						Notification.requestPermission()
-								.then(permission=> {
-									if (permission === "granted") {
-										swReg.pushManager.subscribe({
-											userVisibleOnly: true,
-											applicationServerKey: convertDataURIToBinary('public key')
+					.then(swReg=> {
+						console.log("SW Registered ", swReg);
+						swReg.pushManager.getSubscription()
+								.then(subscription => {
+									if (subscription === null) {
+										Notification.requestPermission().then(permission => {
+											if (permission === "granted") {
+												swReg.pushManager
+														.subscribe({
+															userVisibleOnly: true,
+															applicationServerKey: convertDataURIToBinary(
+																	"test"
+															)
+														})
+														.then(pushSubscriptionObject => {
+															console.log(pushSubscriptionObject);
+														});
+											}
 										})
-												.then(pushSubscriptionObject => {
-													console.log(pushSubscriptionObject);
-												})
+									} else {
+										console.log(subscription);
 									}
 								})
 					})
