@@ -93,3 +93,9 @@ serviceworker는 웹사이트가 작동 중이지 않아도 실행되는 자바�
 ## 4.9 Push Notification on a Web App part One 
 
 https://web-push-codelab.glitch.me/
+
+## 4.13 Payment API
+
+https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API
+
+https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API/Using_the_Payment_Request_API
