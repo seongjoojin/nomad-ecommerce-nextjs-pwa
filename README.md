@@ -1,5 +1,7 @@
 # [NextJS] PWA로 온라인 쇼핑몰 클론코딩
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/seongjoojin/nomad-ecommerce-nextjs-pwa.svg)](https://greenkeeper.io/)
+
 https://academy.nomadcoders.co/courses/360557
 
 ## Introduction
